@@ -29,8 +29,8 @@ import (
 	"github.com/shirou/gopsutil/process"
 	"github.com/sirupsen/logrus"
 
-	"github.com/gracefulspring/chaosblade-spec-go/spec"
-	"github.com/gracefulspring/chaosblade-spec-go/util"
+	"github.com/chaosblade-io/chaosblade-spec-go/spec"
+	"github.com/chaosblade-io/chaosblade-spec-go/util"
 )
 
 type LocalChannel struct {

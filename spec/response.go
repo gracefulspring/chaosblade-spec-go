@@ -52,7 +52,7 @@ var (
 	ParameterRequestFailed            = CodeType{48000, "get request parameter failed"}
 	CommandIllegal                    = CodeType{49000, "illegal command, err: %v"}
 	CommandNetworkExist               = CodeType{49001, "network tc exec failed! RTNETLINK answers: File exists"}
-	ChaosbladeFileNotFound            = CodeType{51000, "`%s`: chaosblade file not found"}
+	ChaosbladeFileNotFound            = CodeType{51000, "`%s`: cnbrchaos file not found"}
 	CommandTasksetNotFound            = CodeType{52000, "`taskset`: command not found"}
 	CommandMountNotFound              = CodeType{52001, "`mount`: command not found"}
 	CommandUmountNotFound             = CodeType{52002, "`umount`: command not found"}
@@ -74,7 +74,7 @@ var (
 	CommandTarNotFound                = CodeType{52018, "`tar`: command not found"}
 	CommandSystemctlNotFound          = CodeType{52019, "`systemctl`: command not found"}
 	CommandNohupNotFound              = CodeType{52020, "`nohup`: command not found"}
-	ChaosbladeServerStarted           = CodeType{53000, "the chaosblade has been started. If you want to stop it, you can execute blade server stop command"}
+	ChaosbladeServerStarted           = CodeType{53000, "the cnbrchaos has been started. If you want to stop it, you can execute blade server stop command"}
 	UnexpectedStatus                  = CodeType{54000, "unexpected status, expected status: `%s`, but the real status: `%s`, please wait!"}
 	DockerExecNotFound                = CodeType{55000, "`%s`: the docker exec not found"}
 	DockerImagePullFailed             = CodeType{55001, "pull image failed, err: %v"}
@@ -85,7 +85,7 @@ var (
 	ResultUnmarshalFailed             = CodeType{60000, "`%s`: exec result unmarshal failed, err: %v"}
 	ResultMarshalFailed               = CodeType{60001, "`%v`: exec result marshal failed, err: %v"}
 	GenerateUidFailed                 = CodeType{60002, "generate experiment uid failed, err: %v"}
-	ChaosbladeServiceStoped           = CodeType{61000, "chaosblade service has been stopped"}
+	ChaosbladeServiceStoped           = CodeType{61000, "cnbrchaos service has been stopped"}
 	ProcessIdByNameFailed             = CodeType{63010, "`%s`: get process id by name failed, err: %v"}
 	ProcessJudgeExistFailed           = CodeType{63011, "`%s`: judge the process exist or not, failed, err: %v"}
 	ProcessNotExist                   = CodeType{63012, "`%s`: the process not exist"}

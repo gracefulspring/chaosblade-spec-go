@@ -19,7 +19,7 @@ package channel
 import (
 	"context"
 
-	"github.com/gracefulspring/chaosblade-spec-go/spec"
+	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 )
 
 type OsChannel interface {

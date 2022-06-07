@@ -162,7 +162,7 @@ func GetNohupOutput(programType int, logFileName string) string {
 }
 
 // fileWriterWithoutErr write func does not return err under any conditions
-// To solve "Failed to write to log, write logs/chaosblade.log: no space left on device" err
+// To solve "Failed to write to log, write logs/cnbrchaos.log: no space left on device" err
 type fileWriterWithoutErr struct {
 	io.Writer
 }

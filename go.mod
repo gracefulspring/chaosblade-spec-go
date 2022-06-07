@@ -1,4 +1,4 @@
-module github.com/gracefulspring/chaosblade-spec-go
+module github.com/chaosblade-io/chaosblade-spec-go
 
 go 1.13
 
