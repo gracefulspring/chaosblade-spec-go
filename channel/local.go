@@ -370,7 +370,7 @@ func execScript(ctx context.Context, script, args string) *spec.Response {
 	script = strings.Replace(script, " ", `\ `, -1)
 	logrus.Debugf("Command: %s %s", script, args)
 	// TODO /bin/sh 的问题
-	cmd := exec.CommandContext(ctx, "/bin/sh", "-c", script+" "+args)
+	cmd := exec.CommandContext(ctx, "bash\\bin\\sh.exe", "-c", script+" "+args)
 	output, err := cmd.CombinedOutput()
 	outMsg := string(output)
 	logrus.Debugf("Command Result, output: %v, err: %v", outMsg, err)
